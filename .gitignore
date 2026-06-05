@@ -1,3 +1,31 @@
-# Godot 4+ specific ignores
+# Godot 4 generated files
 .godot/
+
+# Android export
 /android/
+
+# Godot compiled translations (source .po files should be committed)
+*.translation
+
+# Export presets — commit this file but DO NOT commit credentials inside it
+# Uncomment if your export presets contain signing keys
+# export_presets.cfg
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Editor temp files
+*.swp
+*.swo
